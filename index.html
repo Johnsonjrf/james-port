@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Portfolio</title>
+    <link rel="icon" href="favicon.ico?v=2">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/d8812e0ed1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="logo.svg" alt="" class="logo"> -->
+                <a href="#" class="text-logo">JACES</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+        </div>
+        <div class="header-text">
+            <p>CEO, James Agro Consults and Extension Services Ltd.</p>
+            <h1>Hi, I'm <span>JAMES</span>,<small><br> Agro Consultant.</small></h1>
+        </div>
+    </div>
+
+    <!-- ------About Section------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="second.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>James ThankGod Elvis born in the year1992, native of Otuedu, Ogba L.G.A, Benue State. Studied at the Delta State Polytechnic Ozoro Delta State. Dedicated to making and improving new Agricultural practices in Nigeria and the world at Large.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                                <li><span>Human</span><br>Resource Manager</li>
+                                <li><span>Calculative</span><br>Risk Taker</li>
+                                <li><span>Great</span><br>Communicator</li>
+                                <li><span>Good</span><br>Command of English, both written and spoken.</li>
+                                <li><span>Good</span><br>Team Player</li>
+                                <li><span>Works</span><br>Perfectly under pressure with or without supervision</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                                <li><span>2022 - Current</span><br><b>INTERN</b><br>Green Sahara Farms.</li>
+                                <li><span>2017 - 2021</span><br><b>MANAGER</b><br>Tej farms Inc.</li>
+                                <li><span>2016 - 2017</span><br><b>Supervisor</b><br>Green River Project.</li>
+                                <!-- <li><span>2016 - 2017</span><br>Consulting Services</li> -->
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                                <li><span>2019 - 2022</span></li>
+                                <li><span>HND</span><br>Agricultural Extensions & Management.</li>
+                                <!-- <li><span>2020</span><br>Consulting Services</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------services section------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-sun-plant-wilt"></i>
+                    <h2>Agro Consultancy</h2>
+                    <p>Offers proffessional agro-based advice to small, medium and large farm holders who are in to improve the quality of their product.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-tractor"></i>
+                    <h2>Agro Products Sale</h2>
+                    <p>We sell all kinds of Agro products both in wholesale and retail at very affordable prices, we deliver quality for less price.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <!-- <i class="fa-light fa-spray-can"></i> -->
+                    <!-- <i class="fa-solid fa-sun-plant-wilt"></i> -->
+                    <i class="fa-solid fa-truck-arrow-right"></i>
+                    <h2>Agro Logistics</h2>
+                    <p>Provide Farmers with transport facilities to move their farm products from farm gate to the market.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-sun-plant-wilt"></i>
+                    <h2>Tree  Planting</h2>
+                    <p>As a means of improving soil fertility and land sustainability, we are rendering tree planting services to Farmers who are willing to go into afforestatation.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+                <div>
+                    <i class="fa-solid fa-tractor"></i>
+                    <h2>Agro Product Marketing</h2>
+                    <p>We render marketing services to farmers who lack visible market. That is, we help take their products to our already existing market. With our efficient marketing strategies and modules. Thereby giving farmers quick returns on their products.</p>
+                    <!-- <a href="#">Learn More</a> -->
+                </div>
+            </div>
+            <!-- <div class="services-list">
+                
+                
+            </div> -->
+        </div>
+    </div>
+
+
+    <!-- ------portfolio------- -->
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/james12.jpg" alt="">
+                    
+                    <div class="layer">
+                        <h3>Future Of Agriculture</h3>
+                        <p>Technology advancement has made farming easy and increased efficiency.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/james1.jpg" alt="">
+                    <img src="images/james6.jpg" alt="" class="new-img">
+                    <div class="layer">
+                        <h3>Digital Farming</h3>
+                        <p>With just your smartphone, you can access agro based informations.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    
+                    <img src="images/james13.jpg" alt="">
+                    <div class="layer">
+                        <h3>Future Of Agriculture</h3>
+                        <p>Technology advancement has made farming easy and increase efficiency.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See More</a> -->
+        </div>
+    </div>
+
+
+    <!-- -------Contact-------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>Jamesthankgod285@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+2348089786831</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/james.thankgodelvis.9" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter-square" target="_blank"></i></a>
+                        <a href="https://www.instagram.com/official_james92/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/james-thankgod-elvis-4a199024a" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:jamesthankgod285@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                    <a href="JamesCV.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright ©️ James Agro Consultancy   2022</p>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+            
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzDeiRTXcoaM1ARANAPflZr5jKF2bkN7evxMSSXzTPcnd0Lw8AUgI5BeVdRAJNZu2KxAg/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
